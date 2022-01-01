@@ -2,29 +2,29 @@
 
 * TODO: Change the title of this README 
   in the text `# STARTER-jpa02` above
-  to match the name of your repo, i. e., `lab02-yourgithubid`, then delete
+  to match the name of your repo, i. e., `jpa02-yourgithubid`, then delete
   this TODO item.
 
 * TODO: Correct the links to repo below, 
   then delete this TODO.  Replace it with 
   a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-s21/jpa02-cgaucho
+  https://github.com/ucsb-cs156-w22/jpa02-cgaucho
 
-Repo: https://ucsb-cs156-s21/STARTER-jpa02
+Repo: https://ucsb-cs156-w22/STARTER-jpa02
 
 * TODO: Correct the links to app on Heroku below, 
   then delete this TODO.  Replace it with 
   a link to your running app on Heroku, e.g.
-  https://cs156-s21-jpa02-cgaucho.herokuapp.com
+  https://cs156-w22-jpa02-cgaucho.herokuapp.com
 
 
-On Heroku: https://cs156-s21-jpa02-cgaucho.herokuapp.com
+On Heroku: https://cs156-w22-jpa02-cgaucho.herokuapp.com
 
 * TODO: Correct the links to codecov report below
   then delete this TODO.  Replace it with 
   a link to your codecov report.
 
-On Codecov: https://codecov.io/gh/ucsb-cs156-s21/jpa02-cgaucho
+On Codecov: https://codecov.io/gh/ucsb-cs156-w22/jpa02-cgaucho
 
 
 # About this repo
@@ -49,7 +49,7 @@ This is a minimal "Hello World" type webapp built with Spring Boot.
 # Sources
 
 The code in this repo is in support of
-jpa02 for Spring 2021 for CMPSC 156.
+jpa02 for Winter 2022 for CMPSC 156.
 
 The code in this repo is based in part on the tutorial here:
 <https://spring.io/guides/gs/spring-boot/>, and the code here in the
@@ -62,8 +62,10 @@ below.
 
 # Modifications from the original
 
-* Java 11 support
-  * Converting `pom.xml` to use Java 11
+* Java 17 support
+  * Converting `pom.xml` to use Java 17
+* JUnit 5
+  * Converting test code to use JUnit 5 instead of JUnit 4  
 * Heroku Support
   * Ensuring that the `PORT` environment variable is
     used to define the port on which Spring Boot starts the web server 
