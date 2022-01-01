@@ -124,13 +124,24 @@
         <groupId>org.pitest</groupId>
         <artifactId>pitest-maven</artifactId>
         <version>1.7.3</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-junit5-plugin</artifactId>
+            <version>0.14</version>
+          </dependency>
+        </dependencies>
         <configuration>
+          <verbose>true</verbose>
           <targetClasses>
-            <param>edu.*</param>
+            <param>edu.ucsb.cs156.*</param>
           </targetClasses>
           <targetTests>
-            <param>edu.*</param>
+            <param>edu.ucsb.cs156.*</param>
           </targetTests>
+          <excludedTestClasses>
+            <param>edu.ucsb.cs156.spring.hello.ApplicationTest</param>
+          </excludedTestClasses>
           <outputFormats>
             <outputFormat>HTML</outputFormat>
             <outputFormat>CSV</outputFormat>
