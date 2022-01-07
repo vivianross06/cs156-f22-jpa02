@@ -14,7 +14,7 @@ jobs:
         with:
           java-version: 17.0.x
       - name: Pitest
-        run: mvn org.pitest:pitest-maven:mutationCoverage
+        run: mvn test org.pitest:pitest-maven:mutationCoverage
       - name: Upload Pitest to Artifacts
         uses: actions/upload-artifact@v2
         with:
