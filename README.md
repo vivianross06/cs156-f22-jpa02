@@ -8,23 +8,17 @@
 * TODO: Correct the links to repo below, 
   then delete this TODO.  Replace it with 
   a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-s22/jpa02-cgaucho
+  https://github.com/ucsb-cs156-f22/jpa02-cgaucho
 
-Repo: https://ucsb-cs156-s22/STARTER-jpa02
+Repo: https://ucsb-cs156-f22/STARTER-jpa02
 
 * TODO: Correct the links to app on Heroku below, 
   then delete this TODO.  Replace it with 
   a link to your running app on Heroku, e.g.
-  https://cs156-s22-jpa02-cgaucho.herokuapp.com
+  https://cs156-f22-jpa02-cgaucho.herokuapp.com
 
 
-On Heroku: https://cs156-s22-jpa02-cgaucho.herokuapp.com
-
-* TODO: Correct the links to codecov report below
-  then delete this TODO.  Replace it with 
-  a link to your codecov report.
-
-On Codecov: https://codecov.io/gh/ucsb-cs156-s22/jpa02-cgaucho
+On Heroku: https://cs156-f22-jpa02-cgaucho.herokuapp.com
 
 
 # About this repo
@@ -49,7 +43,7 @@ This is a minimal "Hello World" type webapp built with Spring Boot.
 # Sources
 
 The code in this repo is in support of
-jpa02 for Winter 2022 for CMPSC 156.
+jpa02 for Fall 2022 for CMPSC 156.
 
 The code in this repo is based in part on the tutorial here:
 <https://spring.io/guides/gs/spring-boot/>, and the code here in the
